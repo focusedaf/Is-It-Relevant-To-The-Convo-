@@ -17,8 +17,9 @@ A **React + Vite** app that helps you avoid awkward TMI moments using **Gemini 2
 1. Enter **context** + **response**  
 2. AI decides if you're on track or oversharing  
 3. Instant feedback:  
-   - 🟢 `"All good, carry on."`  
-   - 🔴 `"Woah, that’s a bit much."`  
+   - `"All good, carry on."`  
+   - `"Woah, that’s a bit much."`
+   - edgecase `"uhhhh WHAT?"`  
 
 ## Tech Stack  
 - React + Vite  
