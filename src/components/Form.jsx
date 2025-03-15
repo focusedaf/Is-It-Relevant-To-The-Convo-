@@ -20,7 +20,8 @@ const Form = () => {
     try {
       setLoading(true);
       const prompt = `Yo, check this out! Given the context and response, does the response stay on track or is it spilling unnecessary tea?  
-    If it's an overshare, just say: 'Woah, that's a bit much.'  
+    If it's an overshare, just say: 'Woah, that's a bit much.' 
+    If it has nothing to do with the context, say: "Uhh… what?" 
     If it's all good, just say: 'All good, carry on.'  
     Nothing extra, just vibes.  
     Context: ${context}  
